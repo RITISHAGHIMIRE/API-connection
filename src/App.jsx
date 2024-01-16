@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div>
       <div className="flex justify-between px-10 py-6 w-10/12 ml-auto ">
         <div className="flex gap-10 text-white   ">
           <div className="text-xl font-bold relative top-3 font-sans">HX50</div>
@@ -40,7 +40,10 @@ function App() {
           backgroundImage: `url(https://www.hillhelicopters.com/images/hill-meta-image.jpg)`,
         }}
       ></div>
-    </>
+      <div className="bg-red-500">
+        chasmiss
+      </div>
+    </div>
   );
 }
 

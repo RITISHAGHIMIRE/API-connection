@@ -5,8 +5,14 @@ export default {
   theme: {
     extend: {
       height:{
-        '100':"39rem"
-      }
+        '100':"28rem",
+        '200':"45rem",
+        '150':"35rem"
+      },
+      width:{
+        '100':"35rem"
+      },
+     
     },
   },
   plugins: [],

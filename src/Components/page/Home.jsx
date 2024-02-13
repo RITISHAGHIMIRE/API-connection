@@ -6,7 +6,6 @@ import { Input } from "postcss";
 import { useState } from "react";
 import helicopter from "../../assets/helicopter.png";
 
-import Homies from '../pagecomponent/Home/homies';
 import About from '../pagecomponent/Home/About';
 import Icons from '../pagecomponent/Home/Icons';
 import Helicopter from '../pagecomponent/Home/Helicopter';
@@ -20,6 +19,7 @@ import Engineer from '../pagecomponent/Home/Engineer';
 import Box from '../pagecomponent/Home/Box';
 import Photo from '../pagecomponent/Home/Photo';
 import Array from '../pagecomponent/Array';
+import Homies from '../pagecomponent/Home/Homies_gh';
 
 
 

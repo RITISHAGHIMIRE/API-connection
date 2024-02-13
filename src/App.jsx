@@ -21,11 +21,14 @@ import HI from "./Components/page/Hi";
 
 
 import {Route,Routes} from 'react-router-dom'
+import Table from "./Components/page/Table";
 function App() {
 
   return (
-        <Layout>
-    <Routes>
+    <>
+        {/* // <Layout> */}
+          <Table/>
+    {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/account" element={<ACCOUNT />} />
@@ -47,8 +50,9 @@ function App() {
 
         
         
-    </Routes>
-    </Layout>
+    </Routes> */}
+    {/* // </Layout> */}
+    </>
   );
 }
 

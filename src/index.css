@@ -20,3 +20,18 @@
 .ql-clipboard{
     display: none !important;
 }
+
+
+.tranim{
+    animation: 2s infinite animatetrnslate;
+}
+
+
+@keyframes animatetrnslate{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-1000px);
+    }
+}

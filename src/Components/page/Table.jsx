@@ -25,7 +25,7 @@ function Table() {
 
   return (
     <>
-      <div className="grid grid-cols-4  gap-5 w-11/12 mb-10 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-5 w-11/12 mb-10 mx-auto">
         {course.map((val, i) => {
           let images = `https://hubmainback.hubit.com.np/public/${val.image}`;
           return (

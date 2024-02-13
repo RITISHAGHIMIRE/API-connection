@@ -36,7 +36,7 @@ function Table() {
 
               className="h-full p-2 relative border shadow-lg "
             >
-              <img src={images} alt="" className="h-52" />
+              <img src={images} alt="" className="h-52 w-full object-cover" />
               <div className="  grid gap-2 px-3 mt-4">
                 <div className=" absolute  top-40 bg-pink-700  rounded-md shadow-md shadow-white left-3
                 text-white  w-fit h-fit max-w-52 p-3 capitalize text-sm ">

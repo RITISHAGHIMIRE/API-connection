@@ -10,7 +10,7 @@ function Table() {
         .get("https://hubmainback.hubit.com.np/courses")
         .then((res) => {
           console.log(res);
-          setcourse([...res.data.data]);
+          setcourse([...res.data.result]);
         })
         .catch((err) => {
           console.log(err);
